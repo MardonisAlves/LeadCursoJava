@@ -18,10 +18,4 @@ public class ContaPoupanca implements  ContaInterface{
         double rrest = this.getSaque() - this.saldo;
         System.out.println("Seu saldo é =" + rrest);
     }
-    @Override
-   public  void depositar(){
-        System.out.println("depositar");
-   }
-
-
 }
