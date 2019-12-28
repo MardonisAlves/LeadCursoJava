@@ -1,6 +1,9 @@
-package IntroduçãoJava.aula07.exercicio.dawncast;
+package IntroduçãoJava.aula07.dawncast;
 
-import IntroduçãoJava.aula07.exercicio.dawncast.classes.*;
+import IntroduçãoJava.aula07.dawncast.classes.Cachorro;
+import IntroduçãoJava.aula07.dawncast.classes.ClasseB;
+import IntroduçãoJava.aula07.dawncast.classes.ClasseC;
+import IntroduçãoJava.aula07.dawncast.classes.PastorAlemao;
 
 public class TestDawncat {
 

@@ -1,4 +1,4 @@
-package IntroduçãoJava.aula07.exercicio.dawncast.classes;
+package IntroduçãoJava.aula07.dawncast.classes;
 
 public class Cachorro {
 
