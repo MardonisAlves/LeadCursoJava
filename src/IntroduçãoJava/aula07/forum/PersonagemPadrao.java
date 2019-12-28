@@ -16,4 +16,5 @@ public abstract class PersonagemPadrao {
 
     abstract public String golpeespecial(String golpeEspecial);
 
+
 }

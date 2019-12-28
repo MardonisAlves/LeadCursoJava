@@ -18,6 +18,7 @@ public class Jogo {
         superMan.movimentoPadrao();
 
 
+
         /***
          * Veja que usamos um metodo para a mesma finalidade de mostrar o poder especial
          * do personagem

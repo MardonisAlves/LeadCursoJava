@@ -9,6 +9,7 @@ public class HomeAranha extends PersonagemPadrao {
 
     @Override
     public String golpeespecial(String golpeEspecial) {
-    return golpeEspecial;
+
+        return golpeEspecial;
     }
 }

@@ -1,7 +1,6 @@
 package IntroduçãoJava.aula07.exercicio.dawncast;
 
-import IntroduçãoJava.aula07.exercicio.classes.Cachorro;
-import IntroduçãoJava.aula07.exercicio.classes.PastorAlemao;
+import IntroduçãoJava.aula07.exercicio.dawncast.classes.*;
 
 public class TestDawncat {
 
@@ -20,5 +19,19 @@ public class TestDawncat {
          */
         PastorAlemao alemao = (PastorAlemao) cachorro;
         alemao.nome();
+
+
+        /***
+         * CLasses A B C
+         */
+
+        ClasseC objetoc = new ClasseC();
+        /***
+         * a referencia da superclasse b esta apontando para o objeto da subclasse c
+         * Chamamos isso de Downcast
+         */
+        ClasseB tipob = objetoc;
+        tipob.A();
+        tipob.t();
     }
 }
